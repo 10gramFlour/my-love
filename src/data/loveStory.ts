@@ -13,7 +13,7 @@ export const loveStory = {
   title: "Für Nadia – von Jakob",
   musicPath: "/music/our-song.mp3",
   intro: { eyebrow: "J + N", title: "Für den Menschen, der mein Leben verändert hat.", text: "Eine kleine Reise durch das, was du für mich bedeutest.", button: "Für Nadia öffnen" },
-  hero: { title: "Nadia, du bist mein Lieblingsmensch.", lead: "Seit dem 11. Mai 2025 fühlt sich mein Leben ein bisschen mehr nach Zuhause an.", body: "Diese Seite kann niemals vollständig zeigen, was du mir bedeutest. Aber sie kann es wenigstens versuchen.", image: "/images/hero.jpg" },
+  hero: { title: "Nadia, du bist mein Lieblingsmensch.", lead: "Seit dem 11. Mai 2025 fühlt sich mein Leben ein bisschen mehr nach Zuhause an.", body: "Diese Seite kann niemals vollständig zeigen, was du mir bedeutest. Aber sie kann es wenigstens versuchen.", image: "/images/hero.png" },
   timeline: [
     { date: "11.05.2025", title: "Beziehungsstart", description: "An diesem Tag begann unsere gemeinsame Geschichte. Seitdem ist so vieles leichter, wärmer und einfach schöner, weil es dich darin gibt." },
     { date: "31.10.2025", title: "Unser erster Urlaub", description: "Polen – gemeinsam unterwegs in Zabrze, Katowice und Krakow." },

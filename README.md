@@ -45,7 +45,7 @@ Füge den Eintrag im `timeline`-Array hinzu.
 ### Galerie erweitern
 
 ```ts
-{ src: "/images/memory-7.jpg", alt: "Beschreibung", caption: "Eure Erinnerung", date: "14.02.2026", location: "Ort" }
+{ src: "/images/memory-7.png", alt: "Beschreibung", caption: "Eure Erinnerung", date: "14.02.2026", location: "Ort" }
 ```
 
 Füge Bild und Objekt in `memories` ein. Die Galerie reagiert automatisch auf zusätzliche Einträge.
@@ -54,10 +54,10 @@ Füge Bild und Objekt in `memories` ein. Die Galerie reagiert automatisch auf zu
 
 Lege Bilder in `public/images/` ab. Erwartete aktuelle Namen sind:
 
-- `hero.jpg`
+- `hero.png`
 - `memory-1.jpg` bis `memory-6.jpg`
 
-Empfohlen sind JPG oder WebP, mindestens 1600 px auf der längeren Kante. Bei fehlenden Bildern zeigt die Anwendung bewusst gestaltete Platzhalter an, damit die Seite stabil bleibt.
+JPG, JPEG, PNG und WebP werden unterstützt. Trage bei eigenen Bildern die tatsächliche Dateiendung im jeweiligen Pfad in `src/data/loveStory.ts` ein. Empfohlen sind mindestens 1600 px auf der längeren Kante. Bei fehlenden Bildern zeigt die Anwendung bewusst gestaltete Platzhalter an, damit die Seite stabil bleibt.
 
 ## Musik einfügen
 
