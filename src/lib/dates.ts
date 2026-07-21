@@ -1,4 +1,4 @@
-export type Duration = { years: number; months: number; days: number; hours: number; minutes: number; seconds: number };
+export type Duration = { years: number; months: number; days: number; hours: number; minutes: number; seconds: number; milliseconds: number };
 export function relationshipDuration(startValue: string, now: Date): Duration {
   const start = new Date(startValue); let cursor = new Date(start);
   let years = now.getFullYear() - cursor.getFullYear();
@@ -11,5 +11,7 @@ export function relationshipDuration(startValue: string, now: Date): Duration {
   const days = Math.floor(remaining / 86400000); remaining -= days * 86400000;
   const hours = Math.floor(remaining / 3600000); remaining -= hours * 3600000;
   const minutes = Math.floor(remaining / 60000); remaining -= minutes * 60000;
-  return { years, months, days, hours, minutes, seconds: Math.floor(remaining / 1000) };
+  const seconds = Math.floor(remaining / 1000);
+  remaining -= seconds * 1000;
+  return { years, months, days, hours, minutes, seconds, milliseconds: Math.floor(remaining) };
 }

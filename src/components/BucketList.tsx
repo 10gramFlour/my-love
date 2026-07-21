@@ -49,7 +49,7 @@ export default function BucketList() {
     <div className="bucket-categories">{bucketListCategories.map((category) => {
       const Icon = icons[category.icon as keyof typeof icons];
       const categoryDone = category.items.filter((item) => completedSet.has(item.id)).length;
-      const visibleItems = category.items.filter((item) => filter === "all" || filter === "completed" ? completedSet.has(item.id) : !completedSet.has(item.id));
+      const visibleItems = category.items.filter((item) => filter === "all" ? true : filter === "completed" ? completedSet.has(item.id) : !completedSet.has(item.id));
       const isExpanded = expanded.includes(category.id);
       return <article className="bucket-category" key={category.id}>
         <button className="category-heading" onClick={() => toggleCategory(category.id)} aria-expanded={isExpanded} aria-controls={`${category.id}-items`}>
