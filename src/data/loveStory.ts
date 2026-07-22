@@ -13,7 +13,7 @@ export const loveStory = {
   title: "Für Nadia – von Jakob",
   musicPath: "/music/our-song.mp3",
   intro: { eyebrow: "J + N", title: "Für den Menschen, der mein Leben verändert hat.", text: "Eine kleine Reise durch das, was du für mich bedeutest.", button: "Für Nadia öffnen" },
-  hero: { title: "Nadia, du bist mein Lieblingsmensch.", lead: "Seit dem 11. Mai 2025 fühlt sich mein Leben ein bisschen mehr nach Zuhause an.", body: "Diese Seite kann niemals vollständig zeigen, was du mir bedeutest. Aber sie kann es wenigstens versuchen.", image: "/images/hero.png" },
+  hero: { title: "Nadia, du bist mein Lieblingsmensch.", lead: "Seit dem 11. Mai 2025 fühlt sich mein Leben ein bisschen mehr nach Zuhause an.", body: "Diese Seite kann niemals vollständig zeigen, was du mir bedeutest. Aber sie kann es wenigstens versuchen.", image: "/images/IMG_5272.png" },
   timeline: [
     { date: "11.05.2025", title: "Beziehungsstart", description: "An diesem Tag begann unsere gemeinsame Geschichte. Seitdem ist so vieles leichter, wärmer und einfach schöner, weil es dich darin gibt." },
     { date: "31.10.2025", title: "Unser erster Urlaub", description: "Polen – gemeinsam unterwegs in Zabrze, Katowice und Krakow." },
@@ -30,7 +30,8 @@ export const loveStory = {
     { src: "/images/IMG_5265.png", alt: "Erinnerung von Nadia und Jakob", caption: "Ein Moment, den wir für immer behalten dürfen.", date: "Unsere Erinnerung", location: "Zusammen" },
     { src: "/images/IMG_5266.png", alt: "Erinnerung von Nadia und Jakob", caption: "Mit dir wird selbst ein ganz normaler Tag besonders.", date: "Unsere Erinnerung", location: "Zusammen" },
     { src: "/images/IMG_5269.png", alt: "Erinnerung von Nadia und Jakob", caption: "Mein Lieblingsort ist manchmal einfach dort, wo du bist.", date: "Unsere Erinnerung", location: "Zusammen" },
-    { src: "/images/IMG_5272.png", alt: "Erinnerung von Nadia und Jakob", caption: "Und von solchen Augenblicken darf es noch tausend geben.", date: "Unsere Erinnerung", location: "Zusammen" }
+    { src: "/images/IMG_5270.jpeg", alt: "Erinnerung von Nadia und Jakob", caption: "Ein Bild, das mich sofort wieder lächeln lässt.", date: "Unsere Erinnerung", location: "Zusammen" },
+    { src: "/images/IMG_5271.jpeg", alt: "Erinnerung von Nadia und Jakob", caption: "Mit dir möchte ich noch unendlich viele Momente sammeln.", date: "Unsere Erinnerung", location: "Zusammen" }
   ] as Memory[],
   letter: ["Nadia,","manchmal ist es schwer, in Worte zu fassen, was ein Mensch einem wirklich bedeutet.","Seit du in meinem Leben bist, sind viele Dinge schöner geworden, ohne dass sie dafür größer oder spektakulärer sein mussten. Selbst normale Tage fühlen sich mit dir besonders an.","Ich liebe nicht nur die großen Erinnerungen mit dir. Ich liebe auch die kleinen Momente: unsere Gespräche, unser gemeinsames Lachen, die Vorfreude darauf, dich wiederzusehen, und dieses Gefühl, bei dir angekommen zu sein.","Du bist für mich nicht selbstverständlich. Ich möchte nie vergessen, wie glücklich ich mich schätzen kann, dich zu haben.","Ich weiß nicht genau, was uns die Zukunft alles bringen wird. Aber ich weiß, dass ich noch sehr viele Erinnerungen mit dir sammeln möchte.","Ich möchte mit dir neue Orte entdecken, über unwichtige Dinge lachen, uns gegenseitig unterstützen und auch aus schwierigen Momenten gemeinsam stärker hervorgehen.","Danke, dass es dich gibt.","Ich liebe dich."],
   future: ["Neue Orte entdecken.","Aus gewöhnlichen Tagen Erinnerungen machen.","Auch dann lachen, wenn etwas schiefläuft.","Einander Mut geben und weiter wachsen.","Immer wieder bewusst füreinander da sein."],
