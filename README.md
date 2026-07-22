@@ -1,31 +1,3 @@
-# Für Nadia – von Jakob
-
-Eine persönliche, private Liebeswebsite als filmische Scroll-Reise für Nadia. Das Projekt enthält weder Tracking noch externe Bilder, Medien oder Datenerfassung; eigene Fotos und Musik werden bewusst nicht mitgeliefert.
-
-## Technologien
-
-- Next.js (App Router), React und TypeScript
-- Tailwind CSS
-- Framer Motion
-- Lucide React
-- `next/image` und `next/font`
-
-## Installation
-
-```bash
-npm install
-npm run dev
-```
-
-Danach `http://localhost:3000` öffnen.
-
-## Produktionsbuild
-
-```bash
-npm run build
-npm start
-```
-
 ## Persönliche Inhalte ändern
 
 Alle Texte, Namen, das Beziehungsdatum, Timeline-Einträge, Liebesgründe, Galerie-Metadaten, Zukunftswünsche, Nachrichten und der Musikpfad liegen zentral in [`src/data/loveStory.ts`](src/data/loveStory.ts). Die Beispielinhalte dort sind mit `placeholder: true` gekennzeichnet und können direkt ersetzt werden.
