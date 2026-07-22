@@ -1,6 +1,6 @@
-export type TimelineEntry = { date: string; title: string; description: string; placeholder?: boolean };
-export type Memory = { src: string; alt: string; caption: string; date?: string; location?: string; placeholder?: boolean };
-export type BucketListItem = { id: string; text: string; initiallyCompleted?: boolean };
+export type TimelineEntry = { date: string; title: string; description: string };
+export type Memory = { src: string; alt: string; caption: string; date?: string; location?: string };
+export type BucketListItem = { id: string; text: string };
 export type BucketListCategory = { id: string; title: string; icon: string; items: BucketListItem[] };
 
 const bucketItems = (categoryId: string, texts: string[]): BucketListItem[] =>
@@ -8,12 +8,10 @@ const bucketItems = (categoryId: string, texts: string[]): BucketListItem[] =>
 
 /** Alle persönlichen Texte, Daten und Medienpfade lassen sich hier an einer Stelle ändern. */
 export const loveStory = {
-  names: { from: "Jakob", to: "Nadia" },
   relationshipStart: "2025-05-11T00:00:00+02:00",
-  title: "Für Nadia – von Jakob",
   musicPath: "/music/our-song.mp3",
   intro: { eyebrow: "J + N", title: "Für den Menschen, der mein Leben verändert hat.", text: "Eine kleine Reise durch das, was du für mich bedeutest.", button: "Für Nadia öffnen" },
-  hero: { title: "Nadia, du bist mein Lieblingsmensch.", lead: "Seit dem 11. Mai 2025 fühlt sich mein Leben ein bisschen mehr nach Zuhause an.", body: "Diese Seite kann niemals vollständig zeigen, was du mir bedeutest. Aber sie kann es wenigstens versuchen.", image: "/images/IMG_5272.png" },
+  hero: { lead: "Seit dem 11. Mai 2025 fühlt sich mein Leben ein bisschen mehr nach Zuhause an.", body: "Diese Seite kann niemals vollständig zeigen, was du mir bedeutest. Aber sie kann es wenigstens versuchen.", image: "/images/IMG_5272.png" },
   timeline: [
     { date: "11.05.2025", title: "Beziehungsstart", description: "An diesem Tag begann unsere gemeinsame Geschichte. Seitdem ist so vieles leichter, wärmer und einfach schöner, weil es dich darin gibt." },
     { date: "31.10.2025", title: "Unser erster Urlaub", description: "Polen – gemeinsam unterwegs in Zabrze, Katowice und Krakow." },
@@ -23,7 +21,7 @@ export const loveStory = {
     { date: "30.04.2026", title: "Unser zweiter Urlaub", description: "Tschechien – gemeinsam in Prag." },
     { date: "11.05.2026", title: "Ein Jahr wir", description: "Ein Jahr Beziehung. Ein Jahr voller kleiner und großer Erinnerungen." },
     { date: "01.08.2026", title: "Unser dritter Urlaub", description: "Italien – Sommer, Meer und gemeinsame Zeit in Caorle." },
-    { date: "Weiter", title: "Alles, was noch vor uns liegt", description: "Kein fertiger Plan – nur die schöne Vorfreude auf alles, was wir gemeinsam noch erleben dürfen.", placeholder: true }
+    { date: "Weiter", title: "Alles, was noch vor uns liegt", description: "Kein fertiger Plan – nur die schöne Vorfreude auf alles, was wir gemeinsam noch erleben dürfen." }
   ] as TimelineEntry[],
   reasons: ["Weil ich bei dir vollkommen ich selbst sein kann.","Weil dein Lachen selbst schlechte Tage leichter macht.","Weil sich gewöhnliche Momente mit dir besonders anfühlen.","Weil du mich verstehst, auch wenn ich nicht immer alles perfekt ausdrücken kann.","Weil ich mit dir nicht nur an heute, sondern auch an morgen denke.","Weil du mir gleichzeitig Ruhe und Aufregung gibst.","Weil ich stolz darauf bin, dich an meiner Seite zu haben.","Weil du wunderschön bist – nicht nur äußerlich.","Weil du mein Leben wärmer, echter und schöner machst.","Weil ich mich auf jedes Wiedersehen mit dir freue.","Weil wir über Dinge lachen, die sonst niemand versteht.","Weil du Nadia bist und genau deshalb nicht ersetzbar.","Weil ich mich bei dir angekommen fühle.","Weil du aus normalen Tagen Erinnerungen machst.","Weil ich mit dir wachsen möchte.","Weil du einer der wichtigsten Menschen in meinem Leben bist."],
   memories: [

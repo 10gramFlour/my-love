@@ -13,8 +13,7 @@
     "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "tailwindcss": "3.4.17"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -22,8 +21,6 @@
     "@types/react-dom": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
-    "typescript": "latest",
-    "autoprefixer": "10.4.20",
-    "postcss": "8.4.49"
+    "typescript": "latest"
   }
 }
