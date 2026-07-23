@@ -1,0 +1,1 @@
+import { NextResponse } from "next/server"; import { deleteAccessSession } from "@/lib/auth/session"; export const runtime="nodejs"; export async function POST(){await deleteAccessSession();const response=NextResponse.redirect(new URL("/login",process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000"),303);response.headers.set("Cache-Control","no-store");return response}

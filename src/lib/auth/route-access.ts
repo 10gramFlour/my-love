@@ -1,0 +1,1 @@
+import "server-only"; import { verifyAccessSession } from "./session"; export async function requireRouteAccess(){return await verifyAccessSession()?null:new Response("Unauthorized",{status:401,headers:{"Cache-Control":"no-store"}})}
