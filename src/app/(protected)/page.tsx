@@ -1,0 +1,1 @@
+import Experience from "@/components/Experience"; import { bucketListCategories,loveStory } from "@/data/loveStory.server"; export const dynamic="force-dynamic"; export default function Page(){return <Experience content={loveStory} categories={bucketListCategories}/>}

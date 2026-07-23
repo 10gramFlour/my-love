@@ -1,0 +1,1 @@
+import "server-only"; import { redirect } from "next/navigation"; import { verifyAccessSession } from "./session"; export async function requireSiteAccess(){if(!await verifyAccessSession())redirect("/login")}
